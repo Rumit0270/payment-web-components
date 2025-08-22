@@ -1,7 +1,7 @@
 import { LitElement, html, css } from "lit";
 import { customElement, property, state } from "lit/decorators.js";
 
-import { Currency, PaymentData, PaymentGateway } from "../@types/payment-form";
+import { Currency, PaymentData, PaymentGateway } from "../types/payment-form";
 
 @customElement("payment-form")
 export class PaymentForm extends LitElement {

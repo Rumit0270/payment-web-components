@@ -1,8 +1,8 @@
 import { LitElement, html, css } from "lit";
 import { customElement, state } from "lit/decorators.js";
 
-import { PaymentGateway } from "../@types/payment-form";
-import { Gateway } from "../@types/gateway";
+import { PaymentGateway } from "../types/payment-form";
+import { Gateway } from "../types/gateway";
 
 @customElement("gateway-selector")
 export class GatewaySelector extends LitElement {
