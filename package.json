@@ -1,0 +1,25 @@
+{
+  "name": "payment-web-components",
+  "version": "1.0.0",
+  "description": "Test payment components",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "serve": "web-dev-server --node-resolve --open --watch",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "lit": "^3.3.1"
+  },
+  "files": [
+    "dist/",
+    "src/"
+  ]
+}
